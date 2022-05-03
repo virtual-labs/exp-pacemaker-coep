@@ -1,0 +1,478 @@
+<!DOCTYPE html><html lang="en"><head>
+      <!--Google Tag Manager-->
+      <script class="gtm">
+        var dataLayer = [{
+        'labName': 'Virtual Lab',
+        'discipline': 'Test',
+        'college': 'COEP',
+        'phase': 'Testing',
+        'expName': 'TO SIMULATE PACEMAKER',
+        'expShortName': 'pacemaker'
+        }];
+    
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-5NMQ9NQ');
+      </script>
+      <!--End Google Tag Manager-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="" name="description">
+    <meta content="" name="author">
+    
+    	<meta name="experiment-short-name" content="pacemaker">
+    	<meta name="developer-institute" content="COEP">
+    	<meta name="learning-unit" content="TO SIMULATE PACEMAKER">
+    	<meta name="task-name" content="Theory">
+    
+    <!-- For iPhone -->
+    <meta name="msapplication-TileColor" content="#4076e0">
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#4076e0">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#4076e0">
+    <title>Virtual Labs</title>
+    <link rel="shortcut icon" href="./assets/images/favicon.ico">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css" integrity="sha512-Oy18vBnbSJkXTndr2n6lDMO5NN31UljR8e/ICzVPrGpSud4Gkckb8yUpqhKuUNoE+o9gAb4O/rAxxw1ojyUVzg==" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&amp;family=Raleway&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/github-markdown.min.css">
+    <link rel="stylesheet" href="./assets/css/vlabs-style.css">
+    
+    <script src="./assets/js/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    <style>
+      h1 {
+      font-size: 1.8rem;
+      }
+      h2 {
+      font-size: 1.4rem;
+      }
+      h3 {
+      font-size: 1.2rem;
+      }
+
+      h2, h3 {
+      font-weight: 800;
+      }
+    </style>
+  </head>
+  <body class="p-0 container-fluid vlabs-page d-flex flex-column justify-content-between">
+      <!--Google Tag Manager (noscript)-->
+      <noscript class="gtm">
+        <iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-5NMQ9NQ" style="display:none;visibility:hidden" width="0">
+        </iframe>
+      </noscript>
+      <!--End Google Tag Manager (noscript)-->
+  
+      <header class="vlabs-header sticky-top bg-white">
+        <nav class="p-0 navbar navbar-light d-flex align-items-stretch">
+          
+          <button class="navbar-toggler px-4" type="button" onclick="toggle()">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div class="d-flex justify-content-center">        
+            <a href="https://vlab.co.in" class="navbar-brand">
+              <img src="./assets/images/vlabs-color-small-moe.jpg" alt="vlabs logo" class="vlabs-logo">
+            </a>
+          </div>
+          
+          <div id="headerNavbar" class="d-none border-top flex-grow-1 d-lg-flex align-items-center">
+            <ul class="navbar-nav ml-auto text-center d-flex flex-md-row">
+              <li class="nav-item px-2 m-1">
+                <a href="https://vlab.co.in">HOME</a>
+              </li>
+              <li class="nav-item px-2 m-1">
+                <a href="https://vlab.co.in/participating-institutes">PARTNERS</a>
+              </li>
+              <li class="nav-item px-2 m-1">
+                <a href="https://vlab.co.in/contact-us">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <div class="container-fluid flex-fill d-flex flex-column vlabs-page-main">
+        <div class="row d-flex justify-content-between">
+          <div class="flex-column">
+		  <div class="row py-4 px-4 breadcrumbs">
+		  	<div class="title is-4 tools">Tools</div>
+		  	<span class="mx-2">
+		  		<i aria-hidden="true" class="fa fa-angle-right"></i>
+		  	</span>
+		  	<a href="performance-report.html" target="_blank">
+		  		<button class="v-button">Performance Tool</button>
+		  	</a>
+		  </div>
+	  </div>
+          <div class="flex-column">
+            <div id="plugin-bug-report"></div>
+            <div id="plugin-rating"></div>
+          </div>
+        </div>
+        <div class="row flex-grow-1 d-flex flex-nowrap flex-column flex-lg-row">
+          <div class="modal fade popupmenu" id="popupMenu" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">
+                              <a href="https://vlab.co.in" class="navbar-brand">
+                                  <img src="./assets/images/vlabs-color-small-moe.jpg" alt="vlabs logo" class="vlabs-logo">
+                              </a>
+                          </h5>
+                          <button type="button" class="btn-close align-self-center" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body nav-menu">
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="index.html" class="p-2 ">
+                                      Aim
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="theory.html" class="p-2  current-item ">
+                                      Theory
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="pretest.html" class="p-2 ">
+                                      Pretest
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="procedure.html" class="p-2 ">
+                                      Procedure
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="simulation.html" class="p-2 ">
+                                      Simulation
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="posttest.html" class="p-2 ">
+                                      Posttest
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="references.html" class="p-2 ">
+                                      References
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="d-flex nav-menu-body">
+                                      <a href="feedback.html" class="p-2 ">
+                                      Feedback
+                                      </a>
+                                      
+                                  </div>
+                                  <div id="t-" class="collapse">
+                                      <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                                      </div>
+                                  </div>
+                              </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="nav flex-column sidebar nav-menu flex-shrink-0 px-lg-4 align-items-center align-items-lg-start hidden d-none d-lg-flex" id="menu">
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="index.html" class="p-2 ">
+                        Aim
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="theory.html" class="p-2  current-item ">
+                        Theory
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="pretest.html" class="p-2 ">
+                        Pretest
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="procedure.html" class="p-2 ">
+                        Procedure
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="simulation.html" class="p-2 ">
+                        Simulation
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="posttest.html" class="p-2 ">
+                        Posttest
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="references.html" class="p-2 ">
+                        References
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex nav-menu-body">
+                        <a href="feedback.html" class="p-2 ">
+                        Feedback
+                        </a>
+                        
+                    </div>
+                    <div id="t-" class="collapse">
+                        <div class="px-3 d-flex flex-column tasks align-items-center align-items-lg-start">
+                        </div>
+                    </div>
+                </div>
+          </div>          <div class="vlabs-page-content px-5 pb-4 flex-grow-1 markdown-body">
+            <div class="text-center fix-spacing">
+              <h2 id="to-simulate-pacemaker">To simulate pacemaker</h2>
+          
+            </div>
+              <h3 id="theory">Theory</h3>
+          <p>Major use of medical electronics are as a diagnostic tool. Most instruments sense, record and display a physiological signal. There are some therapeutic and prosthetic devices which are used as a means of treating human ailments.</p>
+          <p>For e.g.</p>
+          <p>Electric stimulators, ventilators, heart-lung machines, artificial organs, prosthetic devices, implantable devices, drug delivery pumps (e.g. insulin pump), etc.</p>
+          <p>There are two common and important electric stimulator devices used to detect and correct arrhythmias</p>
+          <ul>
+          <li>Cardiac Pacemakers</li>
+          <li>Cardiac Defibrillators</li>
+          </ul>
+          <p><strong>What is a pacemaker?</strong></p>
+          <p>A pacemaker is an electronic device that provides an electrical signal to make the heart beat when it's own, built-in pacemakers fail. The anatomical, built-in pacemakers provide what's called the "intrinsic" rhythm, and they can be disrupted by various conditions - ischemia for example, or by an MI.
+          It is prosthetic device for the heart, first conceived in 1932 by Albert S. Hymen, an American cardiologist. In 1952 the pacemaker was used clinically by Paul M. Zoll as an external device.</p>
+          <p><strong>What is cardiac arrhythmia?</strong></p>
+          <p>Abnormality in cardiac normal rhythm is called cardiac arrhythmia.There are various types of cardiac disorder. Some of them are Bradicardia and tachycardia. In bradycardia heart rate goes down from normal rate(i.e. below 60) and in tachycardia heart rate is higher than normal rate.</p>
+          <p>There are several reasons for cardiac arrhythmia. One of the reason for arrhythmia is blockage in conduction path.Heart block can occur anywhere in the specialized conduction system beginning with the sino-atrial connections, the AV junction, the bundle branches and their fascicles, and ending in the distal ventricular Purkinje fibers. Disorders of conduction may manifest as slowed conduction (1st degree), intermittent conduction failure (2nd degree), or complete conduction failure (3rd degree).</p>
+          <p>Here some examples given for various degree of AV node block.</p>
+          <p><strong>first degree AV block</strong></p>
+          <center><img src="images/img1.JPG" title=""></center>
+          
+          <p>This is a fairly simple and subtle AV block caused by the delay of the impulse at the diseased AV node. It is reflected in the PR interval, which the is part of the waveform measured from the beginning of the P wave to the beginning of the QRS complex. In a healthy heart the PR interval is 0.2 seconds in length.</p>
+          <p>The second degree blocks are broken into two types. We will look at each one individually…</p>
+          <p>The second degree type I, also known as the Mobitz Type I or the Wenckebach, is where the impulse is delayed at the AV node longer than usual, increasing the interval until eventually the AV node fails to conduct the impulse on. The result is a "dropped" beat. This is commonly taught as the "going, going, going, gone" block. This block is the less dangerous of the two second degree blocks, but should be monitored appropriately.</p>
+          <center><img src="images/img2.JPG" title=""></center>
+          
+          <p>The second degree type II, Also known as the Mobitz Type II or the Hay, is a disease of the distal conduction system where it simply fails to conduct a beat. There is no set pattern to how often or when it will occur. This is most dangerous of the second degree blocks because the AV node may drop a beat and progress into a complete heart block or fail to generate an escape beat, resulting in cardiac arrest.</p>
+          <center><img src="images/img3.JPG" title=""></center>
+          
+          <p>The third degree block is the most dangerous of the three types. It is where the SA node and the AV node are working out of sync. The SA node is still sending an impulse, but the AV node is not picking it up and the Bundle of His is generating escape beats in order to keep the ventricles operating. This will be recognized in the ECG as two separate rhythms. The P-P interval (measurement from P wave to P wave) will show one rhythm and the R-R interval will show another.</p>
+          <center><img src="images/img4.JPG" title=""></center>
+          
+          <p>Here we have seen different kind of cardiac disorder.</p>
+          <p><strong>Pacemaker classification:</strong></p>
+          <p>Pacemaker can classified in two category</p>
+          <ol>
+          <li>External pacemaker</li>
+          <li>Implantable pacemaker</li>
+          </ol>
+          <p>Based on cardiac disorder physician decide which pacemaker to be used.If pacemaker requires temporary to correct cardiac rhythm then external pacemaker is used but if pacemaker require permanent than implantable pacemaker is used.</p>
+          <p>Again pacemaker can be classified in two type</p>
+          <p><strong>Asynchronous pacemaker :</strong></p>
+          <p>Asynchronous device is free-running-Produces uniform stimulation regardless of cardiac activity (i.e. fixed heart-rate)
+          This type of pacemaker is intended for patients having permanent heart blocks. The rate is preset.
+          It can be varied externally within the range of 60 PPM to 180 PPM. Since this pacemaker
+          functions regardless of the patient's natural heart rhythm it poses a potential danger because of
+          competition between the patient's rhythm and that of the pacemaker</p>
+          <p><strong>Synchronous pacemaker:</strong></p>
+          <p>In patients who have normal heart function most of the time, asynchronous pacing can be extremely dangerous, working against their own physiological pacemaker with the danger of stimulating in the vulnerable period of the T wave, a condition that can result in fibrillation.
+          The demand pacemaker consists of an ECG amplifier and a conventional pacemaker output pulse circuit that has been modified to allow output from the ECG amplifier to inhibit the pulse generator. This pacemaker senses R-waves and its timing and logic circuits count out an elapsed time interval following an R-wave or previously induced pulse. If the intrinsic R-wave does not appear before the elapsed time interval, the ventricle is stimulated. If an R-wave is received, the counter is reset again. This type of pacemaker is used for patients with bradycardia, and it ensures a heartbeat no slower than its set rate.</p>
+          <p><strong>Intended use:</strong></p>
+          <p>It can be used when the short term demand or asynchronous pacing is indicated for therapeutic,
+          prophylactic or diagnostic purposes.</p>
+          <ul>
+          <li>Complete heart block</li>
+          <li>Sinus Bradychardia</li>
+          <li>Sick sinus syndrome</li>
+          <li>Bradycardia with congestive heart failure</li>
+          <li>Atrial/Ventricular arrhythmias</li>
+          <li>Cardiac arrest</li>
+          <li>Support during permanent pacemaker replacement</li>
+          <li>Cardiac complication during invasive or surgical procedure</li>
+          <li>Acute myocardial infarction applition by heart block</li>
+          <li>High rate burst pacing for the treatment of supraventriculrtrachy-arrhythmias</li>
+          </ul>
+          <p><strong>Asynchronous pacemaker:</strong></p>
+          <center><img src="images/img5.JPG" title=""></center>
+          
+          <p>Block diagram showsvarious components of asynchronous pacemaker</p>
+          <ul>
+          <li>Power supply - provides energy</li>
+          <li>Oscillator - controls pulse rate</li>
+          <li>Pulse output - produces stimuli</li>
+          <li>Lead wires - conduct stimuli</li>
+          <li>Electrodes - transmit stimuli to the tissue</li>
+          </ul>
+          <p>Output circuit produces the electrical stimuli to be applied to the heart</p>
+          <ul>
+          <li>Stimulus generation is triggered by the timing circuit</li>
+          <li>Constant-voltage pulses<pre><code> - Typically rated at 5.0 to 5.5V for 500 to 600μs
+          </code></pre>
+          </li>
+          <li>Constant-current pulses<pre><code> - Typically rated at 8 to 10mA for 1.0 to 1.2ms
+          </code></pre>
+          </li>
+          <li>Asynchronous pacing rates -70 to 90 beats per min</li>
+          </ul>
+          <center><img src="images/img6.JPG" title=""></center>
+          
+          <p>Figure show the ideal wave form and realistic waveform of output circuit of pacemaker.
+          Realistic depiction of waveform appearing across heart emitted from capacitor discharge output circuit.</p>
+          <p><strong>Stimulus energy:</strong></p>
+          <center><img src="images/img7.JPG" title=""></center>
+          
+          <p>Energy calculation: Energy of stimulus is calculated from below given formula</p>
+          <center><img src="images/img8.JPG" title=""></center>
+          
+          <p>Example : 5 V, 500 Ohm , 0.5 ms</p>
+          <center><img src="images/img9.JPG" title=""></center>
+          
+          
+          </div>
+        </div>
+      </div>
+      <footer class="text-light pt-2 vlabs-footer d-flex flex-column">
+        <div class="row px-5 mx-0">
+          <div class="col d-flex flex-column">
+            <span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Community Links</span>
+            <a href="https://www.sakshat.ac.in/" class="text-light">Sakshat Portal</a>
+            <a href="http://outreach.vlabs.ac.in/" class="text-light">Outreach Portal</a>
+            <a href="https://vlab.co.in/faq" class="text-light">FAQ: Virtual Labs</a>
+          </div>
+          <div class="col d-flex flex-column">
+            <span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Contact Us</span>
+            <span> Phone: General Information: 011-26582050 </span>
+            <span> Email: support@vlabs.ac.in </span>
+          </div>
+          <div class="col d-flex flex-column">
+            <span class="font-weight-bold vlabs-footer-sect-name pb-2 mb-3">Follow Us</span>
+            <div class="social-links">
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #55acee;" href="https://twitter.com/TheVirtualLabs">
+      	  <i class="fa fa-twitter"></i>
+      	</a>
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #3b5998;" href="https://www.facebook.com/Virtual-Labs-IIT-Delhi-301510159983871/">
+      	  <i class="fa fa-facebook"></i>
+      	</a>
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #e52d27;" href="https://www.youtube.com/watch?v=asxRaOgk6a0">
+      	  <i class="fa fa-youtube"></i>
+      	</a>
+      	<a class="p-2 mt-1 mr-2 d-inline-flex justify-content-center align-items-center" style="background: #2867B2;" href="https://in.linkedin.com/in/virtual-labs-008ba9136">
+      	  <i class="fa fa-linkedin"></i>
+      	</a>
+            </div>
+          </div>
+        </div>
+        <div class="m-0 py-2 text-center" style="font-family: &quot;Open Sans&quot;, sans-serif; background: #212121;">
+          <a class="text-primary font-weight-bold" href="https://www.gnu.org/licenses/agpl-3.0.en.html"> AGPL 3.0 </a>
+          &nbsp;&amp;&nbsp;
+          <a class="text-primary font-weight-bold" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"> Creative Commons (CC BY-NC-SA 4.0) </a>
+        </div>
+      </footer>
+
+      <script src="./assets/js/toggleSidebar.js"></script>
+      
+  
+
+<script type="module" src="https://vjspranav.github.io/vleads-bug-report/client/app.js"></script></body></html>

@@ -1,0 +1,65 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Adams stokes attacks can be successfully treated with a",
+      "answers": {
+        "a": "Defibrillator",
+        "b": "Nerve stimulator",
+        "c": "Artificial heart valve",
+        "d": "Pacemaker"
+      },
+      
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "During Myocardial Infarction, one can use",
+      "answers": {
+        "a": "Heart lung machine",
+        "b": "Pacemaker",
+        "c": "Nerve stimulator",
+        "d": "Kidney Machine"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "To produce ventricular contraction with an electric pulse, the minimum energy required is",
+      "answers": {
+        "a": "10&mu;J",
+        "b": "1J",
+        "c": "10 mW",
+        "d": "1W"
+      },
+      
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Suppose the pacemaker pulse has high energy and occurs during the vulnerable part of the T wave then the heart is in",
+      "answers": {
+        "a": "normal state",
+        "b": "atrial fibrillation",
+        "c": "ventricular fibrillation",
+        "d": "low pressure"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The commonest source of energy for pacemaker is the",
+      "answers": {
+        "a": "mercury battery",
+        "b": "the ordinary dry cell",
+        "c": "nuclear battery",
+        "d": "solar cell"
+      },
+      
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    }
+  ]
+}
