@@ -2,36 +2,62 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Because of the risk of electromagnetic interference, pacemaker patients should not be given",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "cancer treatment",
+        "b": "diathermy treatment",
+        "c": "saline water",
+        "d": "the rooms with fans"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "In the case of stable total AV block, a pacemaker is chosen",
+      "answers": {
+        "a": "with constant frequency",
+        "b": "that is atrial synchronous",
+        "c": "that is ventricular synchronous",
+        "d": "with variable frequency and synchronization with ventricular action"
       },
+      
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": " ______is natural Pacemaker in Human Heart",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Right and left braches",
+        "b": "Atrioventricular node (AV node)",
+        "c": "Common AV Bundle",
+        "d": "Sinoatrial node (SA Node)"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "________sends the electrical impulse that triggers each heartbeat.",
+      "answers": {
+        "a": "Left Branches",
+        "b": "AV node",
+        "c": "SA Node",
+        "d": "Right Branches"
       },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "______is most important in case of external pacemaker.",
+      "answers": {
+        "a": "Power source Battery",
+        "b": "choice2Electrode types",
+        "c": "Size and weight",
+        "d": "All of the above"
+      },
+      
       "correctAnswer": "c",
       "difficulty": "beginner"
     }
